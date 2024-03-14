@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/736x/3c/8c/0a/3c8c0a7ffd3e0dd67f1b8749a7ac2861.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#landing h1, #landing h3{
+    font-family: "Ojuju";
+}
+
+.card-body > h5 {
+    font-family: "Angkor";
+}
+
+:is(#projects, #contacts, #tools) h2{
+    font-size: 75px;
+}
